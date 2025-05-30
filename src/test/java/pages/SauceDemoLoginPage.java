@@ -25,7 +25,6 @@ public class SauceDemoLoginPage {
         PageFactory.initElements(getDriver(),this);
     }
 
-
     // Web saydasında elementler ile ilgili methodlar
     public void fillNameField(String name){
         userName.sendKeys(name);
