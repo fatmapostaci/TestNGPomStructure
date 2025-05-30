@@ -33,6 +33,7 @@ public class SauceDemoLoginPage {
     public void fillPasswordField(String pass){
         password.sendKeys(pass);
     }
+
     public void clickSubmitButton(){
         submitButton.click();
     }
