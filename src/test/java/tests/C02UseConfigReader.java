@@ -16,7 +16,7 @@ public class C02UseConfigReader {
         System.out.println(ConfigReader.getProperty("eposta"));
         System.out.println(ConfigReader.getProperty("password"));
 
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         driver.quit();
     }
 }
