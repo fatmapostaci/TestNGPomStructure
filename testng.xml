@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="TestNGPomStructure">
+        <classes>
+            <class name="tests.C02UseConfigReader">
+                <methods>
+                    <include name="configReaderTest"/>
+                </methods>
+            </class>
+            <class name="tests.C03UseDriverClass">
+                <methods>
+                    <include name="driverClassTest"/>
+                </methods>
+            </class>
+            <class name="tests.C04UsePageClassWithPageFactory">
+                <methods>
+                    <include name="pageFactoryTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
