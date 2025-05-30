@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    public static Properties properties;   //Create Properties instance
+    private static Properties properties;   //Create Properties instance
 
     static{
         String filePath="config.properties";  //path of the configuration file
