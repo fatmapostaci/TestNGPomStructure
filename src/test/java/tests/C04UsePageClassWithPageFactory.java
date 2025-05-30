@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import pages.SauceDemoLoginPage;
 import utils.Driver;
 
+import static utils.Driver.closeDriver;
 import static utils.Driver.getDriver;
 
 public class C04UsePageClassWithPageFactory {
@@ -32,5 +33,6 @@ public class C04UsePageClassWithPageFactory {
 
         //- Choose price low to high
         //- Verify item prices are sorted from low to high with hard Assert.
+        closeDriver();
     }
 }
